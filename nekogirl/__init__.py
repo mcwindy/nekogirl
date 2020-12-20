@@ -15,6 +15,13 @@ class Nekogirl():
     def 变(self):
         print('变好了')
 
+    def 自拍(self):
+        print('''
+                   \\
+        |\__/,|   (`\\
+      _.|o o  |_   ) )
+    -(((---(((--------♥ ''')
+
 
 if __name__ == '__main__':
     my_nekogirl = Nekogirl('sweety')
