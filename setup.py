@@ -4,13 +4,16 @@ from setuptools import setup
 
 setup(
     name='nekogirl',
-    version='0.0.2',
+    version='0.0.3',
+    license='WTFPL',
+    description='An open source python package used to import nekogirl.',
     author='mcwindy',
     author_email='chen_yuyang@outlook.com',
     url='https://github.com/mcwindy/nekogirl',
-    description='这个代码提供了猫娘',
     packages=['nekogirl'],
-    install_requires=[],
+    install_requires=[
+        "random"
+    ],
     entry_points={
         'console_scripts': [
             'Nekogirl=nekogirl:Nekogirl'

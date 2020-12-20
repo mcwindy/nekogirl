@@ -8,7 +8,9 @@ class Nekogirl():
         return self.name
 
     def 喵喵喵(self):
-        print('喵喵喵')
+        import random
+        if random.random() < 0.5:  # 现在猫娘有概率不理你
+            print('喵喵喵')
 
     def 变(self):
         print('变好了')
