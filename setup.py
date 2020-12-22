@@ -11,10 +11,7 @@ setup(
     author_email='chen_yuyang@outlook.com',
     url='https://github.com/mcwindy/nekogirl',
     packages=['nekogirl'],
-    install_requires=[
-        "random",
-        "time"
-    ],
+    install_requires=[],
     entry_points={
         'console_scripts': [
             'Nekogirl=nekogirl:Nekogirl'

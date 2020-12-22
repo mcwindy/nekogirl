@@ -1,3 +1,2 @@
-cd ..
-twine upload .dist
+twine upload ..\dist\*
 pause
