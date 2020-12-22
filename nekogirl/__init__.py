@@ -1,4 +1,4 @@
-class Nekogirl():
+class Nekogirl:
     states = {'猫猫', '猫娘'}
 
     def __init__(self, name, state='猫猫'):
@@ -15,8 +15,8 @@ class Nekogirl():
                 print('喵喵喵')
         else:
             import time
-            hour = list(map(int, time.asctime().split(' ')[3].split(':')))[0]
-            if (hour < 8 or hour >= 18):
+            hour = int(time.asctime().split(' ')[3].split(':')[0])
+            if hour < 8 or hour >= 18:
                 cur = '晚上'
             elif 8 <= hour < 12:
                 cur = '上午'
@@ -25,7 +25,7 @@ class Nekogirl():
             print('主人,' + cur + '好')
 
     def 变(self):
-        self.state = list(Nekogirl.states - {self.state})[0]
+        self.state = str(*Nekogirl.states - {self.state})
         print('变好了')
 
     def 自拍(self):
