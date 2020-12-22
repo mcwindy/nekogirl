@@ -25,7 +25,7 @@ class Nekogirl:
             print('主人,' + cur + '好')
 
     def 变(self):
-        self.state = str(*Nekogirl.states - {self.state})
+        self.state, = Nekogirl.states - {self.state}
         print('变好了')
 
     def 自拍(self):
