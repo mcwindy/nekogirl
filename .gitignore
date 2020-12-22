@@ -1,4 +1,4 @@
 dist/
 nekogirl.egg-info/
-scripts/
 */__pycache__
+password.txt
