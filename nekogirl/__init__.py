@@ -15,8 +15,7 @@ class Nekogirl():
                 print('喵喵喵')
         else:
             import time
-            hour = list(map(int,time.asctime().split(' ')[3].split(':')))[0]
-            print(hour)
+            hour = list(map(int, time.asctime().split(' ')[3].split(':')))[0]
             if (hour < 8 or hour >= 18):
                 cur = '晚上'
             elif 8 <= hour < 12:
@@ -32,8 +31,8 @@ class Nekogirl():
     def 自拍(self):
         if self.state == '猫猫':
             print('''
-                    \\
-            |\__/,|   (`\\
+
+          |\__/,|   (`
         _.|o o  |_   ) )
         -(((---(((--------♥ ''')
         else:
