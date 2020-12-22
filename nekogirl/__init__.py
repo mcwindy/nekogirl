@@ -1,6 +1,6 @@
 class Nekogirl:
     state = {'猫猫', '猫娘'}
-	emotion = {'开心','沮丧','生气','发情'}
+    emotion = {'开心','沮丧','生气','发情'}
 
     def __init__(self, name, state='猫猫'):
         self.name = name
