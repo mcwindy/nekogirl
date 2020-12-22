@@ -1,1 +1,4 @@
-/nekogirl/
+dist/
+nekogirl.egg-info/
+scripts/
+*/__pycache__

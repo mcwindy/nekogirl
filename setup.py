@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='nekogirl',
-    version='0.0.3',
+    version='0.0.4',
     license='WTFPL',
     description='An open source python package used to import nekogirl.',
     author='mcwindy',
@@ -12,7 +12,8 @@ setup(
     url='https://github.com/mcwindy/nekogirl',
     packages=['nekogirl'],
     install_requires=[
-        "random"
+        "random",
+        "time"
     ],
     entry_points={
         'console_scripts': [
