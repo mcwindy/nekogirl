@@ -1,6 +1,6 @@
 class Nekogirl:
     states = {'猫猫', '猫娘'}
-	emotion = {'开心'，'沮丧','生气','发情'}
+    emotion = {'开心', '沮丧', '生气', '发情'}
 
     def __init__(self, name, state='猫猫'):
         self.name = name
@@ -38,11 +38,11 @@ class Nekogirl:
         -(((---(((--------♥ ''')
         else:
             print('还没有搞好TuT,可以发issue提供字符画或者照片')
-			
-	def 咬人(self):
-	    if self.emotion == '生气':
-		    if random.random() < 0.3:
-		        print('猫猫生气了！会咬人的！')
+
+    def 咬人(self):
+        if self.emotion == '生气':
+            if random.random() < 0.3:
+                print('猫猫生气了！会咬人的！')
 
 
 if __name__ == '__main__':
@@ -53,3 +53,4 @@ if __name__ == '__main__':
     my_nekogirl.变()
     my_nekogirl.叫()
     my_nekogirl.自拍()
+    my_nekogirl.咬人()
