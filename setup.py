@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='nekogirl',
-    version='0.0.4',
+    version='0.0.6',
     license='WTFPL',
     description='An open source python package used to import nekogirl.',
     author='mcwindy',
