@@ -1,8 +1,9 @@
-import 光标
+from . import 光标
 
 
 size = 光标.长宽()
-if size[0] < 80 or size[1] < 25:
+minimum_size = [80, 25]
+if size[0] < minimum_size[0] or size[1] < minimum_size[1]:
     raise '窗口太小了，猫猫放不下。至少要80*25'
 图像 = [[' ' for _ in range(size[0])] for __ in range(size[1])]
 
